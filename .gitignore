@@ -1,2 +1,7 @@
+*~
+*.pyc
+
 venv
 software
+
+db.sqlite3
