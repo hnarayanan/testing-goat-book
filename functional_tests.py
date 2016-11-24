@@ -10,6 +10,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser = webdriver.Firefox(firefox_binary=FirefoxBinary(
             firefox_path='/home/ubuntu/Desktop/testinggoat/software/firefox/firefox'
         ))
+        self.browser.implicitly_wait(3)
 
     def tearDown(self):  
         self.browser.quit()
