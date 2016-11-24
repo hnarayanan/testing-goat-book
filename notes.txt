@@ -1,0 +1,2 @@
+1. Firefox 46 is the last version of Firefox that works reasonably
+with Selenium 2.x, so we install that separately.
